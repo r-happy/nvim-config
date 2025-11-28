@@ -15,7 +15,6 @@ return {
 			},
 			input = {
 				enabled = true,
-				expand = true,
 			},
 			picker = {
 				enabled = true,
