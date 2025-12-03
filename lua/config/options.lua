@@ -24,3 +24,4 @@ vim.opt.wrap = true
 vim.opt.swapfile = false
 vim.g.mapleader = " "
 vim.opt.cursorline = true
+vim.opt.wrap = false
