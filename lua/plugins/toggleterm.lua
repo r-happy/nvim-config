@@ -2,6 +2,8 @@ return {
 	{
 		"akinsho/toggleterm.nvim",
 		version = "*",
+		keys = { [[<C-\>]] },
+		cmd = { "ToggleTerm", "TermExec" },
 		config = function()
 			require("toggleterm").setup({
 				-- 【公式準拠】ここでキーを指定すると、自動的に各モードでマッピングされます

@@ -1,6 +1,7 @@
 return {
 	{
 		"saghen/blink.cmp",
+		event = { "InsertEnter", "CmdlineEnter" },
 		dependencies = { "rafamadriz/friendly-snippets", "nvim-tree/nvim-web-devicons" },
 		version = "*", -- 最新の安定版を使用
 
