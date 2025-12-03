@@ -1,8 +1,11 @@
 return {
-    {
-        'rebelot/kanagawa.nvim',
-        config = function()
-            vim.cmd("colorscheme kanagawa")
-        end
-    }
+	{
+		"rebelot/kanagawa.nvim",
+		opts = {
+			compile = true,
+		},
+		config = function()
+			vim.cmd("colorscheme kanagawa")
+		end,
+	},
 }

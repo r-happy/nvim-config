@@ -11,11 +11,11 @@ return {
 		dependencies = {
 			{ "mason-org/mason.nvim", opts = {} },
 			"neovim/nvim-lspconfig",
-            "hrsh7th/cmp-nvim-lsp"
+			"hrsh7th/cmp-nvim-lsp",
 		},
 		config = function()
-            require("mason-lspconfig").setup(opts)
-            local capabilities = require("cmp_nvim_lsp").default_capabilities()
+			require("mason-lspconfig").setup(opts)
+			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 			vim.api.nvim_create_autocmd("LspAttach", {
 				callback = function(event)
 					local map = function(keys, func, desc)
