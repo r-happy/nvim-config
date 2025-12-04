@@ -6,6 +6,9 @@ return {
 		build = ":TSUpdate",
 		event = { "BufReadPost", "BufNewFile" },
 		cmd = { "TSUpdateSync", "TSUpdate", "TSInstall" },
+		dependencies = {
+			"nvim-treesitter/nvim-treesitter-textobjects",
+		},
 		opts = {
 			highlight = { enable = true },
 			indent = { enable = true },
