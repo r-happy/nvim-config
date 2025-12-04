@@ -88,6 +88,13 @@ return {
 					disabled = "Enable ",
 				},
 			},
+			terminal = {
+				enabled = true,
+				win = {
+					position = "float",
+					border = true,
+				},
+			},
 		},
 		keys = {
 			{
