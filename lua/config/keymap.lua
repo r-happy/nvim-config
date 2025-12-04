@@ -1,6 +1,6 @@
 -- snacks keymaps
 -- begin from "s"
-vim.keymap.set("n", "<C-f>", function()
+vim.keymap.set("n", "sf", function()
 	Snacks.picker.smart()
 end, { desc = "open picker" })
 
