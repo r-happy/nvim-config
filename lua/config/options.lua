@@ -26,3 +26,13 @@ vim.g.mapleader = " "
 vim.opt.cursorline = true
 vim.opt.wrap = false
 vim.opt.scrolloff = 10
+vim.diagnostic.config({
+	signs = {
+		text = {
+			[vim.diagnostic.severity.ERROR] = "•",
+			[vim.diagnostic.severity.WARN] = "•",
+			[vim.diagnostic.severity.HINT] = "•",
+			[vim.diagnostic.severity.INFO] = "•",
+		},
+	},
+})
