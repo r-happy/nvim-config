@@ -7,6 +7,14 @@ return {
 			"rcarriga/nvim-notify",
 		},
 		opts = {
+			views = {
+				hover = {
+					border = {
+						style = "rounded",
+					},
+					position = { row = 2, col = 2 },
+				},
+			},
 			lsp = {
 				hover = {
 					enabled = true,

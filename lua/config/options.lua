@@ -36,3 +36,4 @@ vim.diagnostic.config({
 		},
 	},
 })
+vim.opt.autoread = true
