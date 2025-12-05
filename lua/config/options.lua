@@ -37,3 +37,5 @@ vim.diagnostic.config({
 	},
 })
 vim.opt.autoread = true
+vim.opt.updatetime = 250
+vim.opt.timeoutlen = 300
