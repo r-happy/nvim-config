@@ -1,7 +1,7 @@
 return {
-	{
-		"petertriho/nvim-scrollbar",
-		event = "VeryLazy",
-		opts = {},
-	},
+	-- 	{
+	-- 		"petertriho/nvim-scrollbar",
+	-- 		event = "VeryLazy",
+	-- 		opts = {},
+	-- 	},
 }
