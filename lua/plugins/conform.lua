@@ -13,31 +13,29 @@ return {
 			})
 
 			require("conform").setup({
+				formatters_by_ft = {
+					javascript = { "prettier" },
+					typescript = { "prettier" },
+					javascriptreact = { "prettier" }, -- jsx
+					typescriptreact = { "prettier" }, -- tsx
+					css = { "prettier" },
+					html = { "prettier" },
+					json = { "prettier" },
+					yaml = { "prettier" },
+					markdown = { "prettier" },
+					graphql = { "prettier" },
+				},
+
+				formatters = {
+					prettier = {
+						prepend_args = { "--tab-width", "4", "--use-tabs", "false" },
+					},
+				},
+
 				format_on_save = {
 					lsp_fallback = true,
 					async = false,
 					timeout_ms = 1000,
-				},
-				formatters = {
-					prettier = {
-						args = {
-							"--semi",
-							"true",
-							"--arrow-parens",
-							"always",
-						},
-					},
-				},
-				formatters_by_ft = {
-					javascript = { "prettier" },
-					typescript = { "prettier" },
-					javascriptreact = { "prettier" },
-					typescriptreact = { "prettier" },
-					json = { "prettier" },
-					css = { "prettier" },
-					html = { "prettier" },
-					markdown = { "prettier" },
-					yaml = { "prettier" },
 				},
 			})
 		end,
