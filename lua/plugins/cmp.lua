@@ -24,6 +24,7 @@ return {
 			},
 
 			completion = {
+				max_height = 15,
 				-- ドキュメント表示
 				documentation = {
 					auto_show = true,
