@@ -6,7 +6,8 @@ return {
 		compile = true,
 		dimInactive = true,
 		globalStatus = true,
-		theme = "dragon",
+		theme = "wave",
+		transparent = true,
 
 		overrides = function(colors)
 			local theme = colors.theme
@@ -55,6 +56,6 @@ return {
 	},
 	config = function(_, opts)
 		require("kanagawa").setup(opts)
-		vim.cmd("colorscheme kanagawa-dragon")
+		vim.cmd("colorscheme kanagawa")
 	end,
 }
