@@ -24,7 +24,6 @@ return {
 			},
 
 			completion = {
-				max_height = 15,
 				-- ドキュメント表示
 				documentation = {
 					auto_show = true,
@@ -39,6 +38,7 @@ return {
 				},
 
 				menu = {
+					max_height = 30,
 					border = "rounded",
 					draw = {
 						components = {

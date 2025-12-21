@@ -54,8 +54,8 @@ return {
 			}
 		end,
 	},
-	config = function(_, opts)
-		require("kanagawa").setup(opts)
-		vim.cmd("colorscheme kanagawa")
-	end,
+	-- config = function(_, opts)
+	-- 	require("kanagawa").setup(opts)
+	-- 	vim.cmd("colorscheme kanagawa")
+	-- end,
 }
