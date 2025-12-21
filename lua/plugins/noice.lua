@@ -7,22 +7,13 @@ return {
 			"rcarriga/nvim-notify",
 		},
 		opts = {
-			views = {
-				hover = {
-					border = {
-						style = "rounded",
-					},
-					position = { row = 2, col = 2 },
-				},
-			},
 			lsp = {
 				hover = {
-					enabled = true,
+					enabled = true, -- これでKがNoiceになる
 				},
 				signature = {
-					enabled = true,
+					enabled = true, -- 引数ヒントもNoiceになる
 				},
-
 				override = {
 					["vim.lsp.util.convert_input_to_markdown_lines"] = true,
 					["vim.lsp.util.stylize_markdown"] = true,
