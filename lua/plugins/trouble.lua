@@ -17,7 +17,7 @@ return {
 			},
 			{
 				"<leader>cs",
-				"<cmd>Trouble symbols toggle focus=true win.position=right win.size=40<cr>",
+				"<cmd>Trouble symbols toggle focus=false win.size=40<cr>",
 				desc = "Symbols (Right Sidebar)",
 			},
 			{
