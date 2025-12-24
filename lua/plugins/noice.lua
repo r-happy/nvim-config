@@ -9,13 +9,7 @@ return {
         opts = {
             lsp = {
                 hover = {
-                    enabled = true,
-                    silent = true,
-                    opts = {
-                        border = {
-                            style = "rounded",
-                        },
-                    },
+                    enabled = false,
                 },
                 signature = {
                     enabled = false,
