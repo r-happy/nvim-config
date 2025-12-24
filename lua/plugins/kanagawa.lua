@@ -21,6 +21,8 @@ return {
                 NoiceCmdlinePopupBorder = { fg = theme.ui.border, bg = theme.ui.bg_p1 },
                 NoiceCmdlinePopupTitle = { fg = theme.ui.special, bg = theme.ui.bg_p1 },
                 NoiceCmdlineIcon = { link = "KanagawaKeyword" },
+                FloatBorder = { fg = theme.ui.fg_border, bg = "NONE" },
+                NoiceLspHoverBorder = { link = "FloatBorder" },
 
                 BlinkCmpMenu = { fg = theme.ui.fg, bg = theme.ui.bg_p1 },
                 BlinkCmpMenuBorder = { fg = theme.ui.border, bg = theme.ui.bg_p1 },
