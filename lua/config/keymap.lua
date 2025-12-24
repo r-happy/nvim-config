@@ -44,6 +44,9 @@ vim.keymap.set("n", "]d", "<cmd>Lspsaga diagnostic_jump_next<CR>", { desc = "Nex
 -- (Option) Snacksの参照ジャンプも残しておく場合
 vim.keymap.set("n", "gr", function() Snacks.picker.lsp_references() end, { desc = "Goto References (Snacks)" })
 
+-- Sidebar with outline
+vim.keymap.set("n", "so", "<cmd>Lspsaga outline<CR>", { desc = "Show Outline" })
+
 -- =============================================================================
 -- Other Plugins
 -- =============================================================================

@@ -1,6 +1,7 @@
 return {
-	{
-		"github/copilot.vim",
-		event = "VeryLazy",
-	},
+    {
+        "zbirenbaum/copilot.lua",
+        event = "VeryLazy",
+        opts = {}
+    },
 }
