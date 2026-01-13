@@ -11,25 +11,12 @@ return {
                 ui = {
                     border = "rounded",
                 },
-                hover = {
-                    max_width = 0.8,
-                    open_link = "gx",
-                    open_browser = "!chrome",
-                },
                 symbol_in_winbar = {
-                    enable = true,
-                    separator = "  ",
+                    enable = false,
                 },
                 lightbulb = {
                     enable = true,
                     sign = false,
-                },
-                definition = {
-                    edit = "<C-c>o",
-                    vsplit = "<C-c>v",
-                    split = "<C-c>i",
-                    tabe = "<C-c>t",
-                    quit = "q",
                 },
                 callhierarchy = {
                     layout = "float"

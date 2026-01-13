@@ -12,7 +12,6 @@ return {
             require("nvim-treesitter").install({
                 -- Neovim 自体の開発・設定に必須
                 "lua",
-                "vim",
                 "vimdoc",
                 "query",
                 "markdown",

@@ -19,7 +19,7 @@ vim.opt.autoindent = true
 vim.opt.smartindent = true
 vim.opt.number = true
 -- vim.opt.numberwidth = 4
-vim.opt.relativenumber = true
+-- vim.opt.relativenumber = true
 vim.opt.wrap = true
 vim.opt.swapfile = false
 vim.g.mapleader = " "
@@ -27,14 +27,14 @@ vim.opt.cursorline = true
 vim.opt.wrap = false
 vim.opt.scrolloff = 10
 vim.diagnostic.config({
-	signs = {
-		text = {
-			[vim.diagnostic.severity.ERROR] = "",
-			[vim.diagnostic.severity.WARN] = "",
-			[vim.diagnostic.severity.HINT] = "",
-			[vim.diagnostic.severity.INFO] = "",
-		},
-	},
+    signs = {
+        text = {
+            [vim.diagnostic.severity.ERROR] = "",
+            [vim.diagnostic.severity.WARN] = "",
+            [vim.diagnostic.severity.HINT] = "",
+            [vim.diagnostic.severity.INFO] = "",
+        },
+    },
 })
 vim.opt.autoread = true
 vim.opt.updatetime = 250

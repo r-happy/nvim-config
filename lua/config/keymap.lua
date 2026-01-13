@@ -9,7 +9,7 @@ vim.keymap.set("n", "sb", function() Snacks.picker.buffers() end, { desc = "Snac
 vim.keymap.set("n", "sl", function() Snacks.picker.lines() end, { desc = "Snacks: Buffer Lines" })
 vim.keymap.set("n", "se", function() Snacks.explorer() end, { desc = "Snacks: Explorer" })
 vim.keymap.set("n", "sg", function() Snacks.lazygit() end, { desc = "Snacks: LazyGit" })
-vim.keymap.set({ "n", "t" }, "st", function() Snacks.terminal() end, { desc = "Snacks: Toggle Terminal" })
+vim.keymap.set({ "n", "t" }, "<C-\\>", function() Snacks.terminal() end, { desc = "Snacks: Toggle Terminal" })
 
 -- =============================================================================
 -- LSP / Lspsaga Keymaps (Advanced UI)

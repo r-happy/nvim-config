@@ -7,7 +7,6 @@ return {
         dimInactive = true,
         globalStatus = true,
         theme = "dragon",
-        transparent = true,
 
         overrides = function(colors)
             local theme = colors.theme
