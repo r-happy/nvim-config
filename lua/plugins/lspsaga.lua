@@ -11,15 +11,15 @@ return {
                 ui = {
                     border = "rounded",
                 },
-                symbol_in_winbar = {
-                    enable = false,
-                },
                 lightbulb = {
                     enable = true,
                     sign = false,
                 },
                 callhierarchy = {
                     layout = "float"
+                },
+                symbol_in_winbar = {
+                    enable = true,
                 }
             })
         end,

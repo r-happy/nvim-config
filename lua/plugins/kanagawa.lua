@@ -4,9 +4,9 @@ return {
     lazy = false,
     opts = {
         compile = true,
-        dimInactive = true,
-        globalStatus = true,
-        theme = "dragon",
+        undercurl = true,
+
+        theme = "wave",
 
         overrides = function(colors)
             local theme = colors.theme
@@ -55,8 +55,8 @@ return {
             }
         end,
     },
-    -- config = function(_, opts)
-    --     require("kanagawa").setup(opts)
-    --     vim.cmd("colorscheme kanagawa-dragon")
-    -- end,
+    config = function(_, opts)
+        require("kanagawa").setup(opts)
+        vim.cmd("colorscheme kanagawa-wave")
+    end,
 }
